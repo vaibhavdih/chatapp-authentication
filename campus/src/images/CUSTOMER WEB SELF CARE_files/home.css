@@ -1,0 +1,140 @@
+@charset "UTF-8";
+body
+{
+	background-color: #B2B2B2;
+}
+.outer
+{
+	background-color:grey;
+	width:1300px;
+	border:1px solid black;
+	margin: 20px auto;
+	
+}
+.inner
+{
+	width:1300px;
+	height:110px;
+	border: 1px solid black;
+	background-color: #0080C0;
+    background-repeat: no-repeat;	
+    
+}
+.main
+ {
+	
+	overflow:auto;
+	width:1300px;
+	height:420px;
+	background-color: white;
+	
+}
+.main p
+{	
+	padding:5px 20px;
+	margin:0px 20px;	
+	border: 1px solid black;
+	width: 500px;
+	height: 150px;
+	/* font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px; */
+}
+.main a
+{
+padding:20px;
+}
+
+ .foot
+ {
+ background-color: white;
+ }
+ 
+ .MenuText {
+ font-family : Arial, Helvetica, sans-serif ;
+ font-size : 12px ;
+ background-color : #758CAC ;
+ line-height : 20px ;
+ color : #FFFFFF ;
+  }
+.info
+{
+	padding:20px 20px 5px 20px;
+	color: #5A6A80;
+	font-weight: bold;
+}
+.wifi
+{
+	margin:50px 50px 0px 50px;
+	font-size: large;
+}
+.headerBackground {
+ 
+ background: url("/images/defaultthemes/theme5/header-bkgd-store.jpg") ;
+ 
+ background-repeat :repeat;
+  }
+ .img img
+ {
+	padding: 20px 0px 0px 200px;
+	
+ } 
+ 
+ .onlybold
+ {
+ 	font-weight: bold;
+  
+ }
+.Buttons {
+ font-family : Arial, Helvetica, sans-serif ;
+ font-size : 12px ;
+ font-weight : bold ;
+ color : #FFFFFF ;
+ background-color : #0080c0 ;
+ border-right-width : 1px ;
+ border-bottom-width : 1px ;
+ border-right-style : solid ;
+ border-bottom-style : solid ;
+ border-right-color : #666666 ;
+ border-bottom-color : #666666 ;
+ line-height : 18px ;
+ padding-right : 5px ;
+ padding-left : 3px ;
+  }
+  
+  
+ .TableHeader {
+ font-family : Arial, Helvetica, sans-serif ;
+ font-size : 12px ;
+ line-height : 20px ;
+ color : #000000 ;
+ font-weight : bold ;
+ padding-left : 2px ;
+ background-color : #E1E1E1 ;
+ 
+ }
+ 
+.TableRows {
+ font-family : Arial, Helvetica, sans-serif ;
+ font-size : 12px ;
+ line-height : 18px ;
+ color : #000000 ;
+ padding-left : 2px ;
+ border-right-width : 1px ;
+ border-bottom-width : 1px ;
+ border-left-width : 1px ;
+ border-right-style : solid ;
+ border-bottom-style : solid ;
+ border-left-style : solid ;
+ border-right-color : #E1E1E1 ;
+ border-bottom-color : #E1E1E1 ;
+ border-left-color : #E1E1E1 ;
+ }
+.td
+{
+width:20%;
+padding:0px 20px;
+}
+.payment
+{
+	padding:20px;
+}

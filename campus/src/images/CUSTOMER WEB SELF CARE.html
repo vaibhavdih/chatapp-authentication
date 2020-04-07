@@ -1,0 +1,1187 @@
+
+<!-- saved from url=(0052)https://register.mtnldelhi.in:8080/viewDataUsageInfo -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>CUSTOMER WEB SELF CARE</title>
+
+
+
+<script>
+	function validateDate() {
+		fromDate = document.getElementById("fromDate").value;
+		toDate = document.getElementById("toDate").value;
+		date1 = new Date(fromDate);
+		fromDay = date1.getDate();
+		fromMonth = date1.getMonth();
+		allowMonth = fromMonth + 1;
+		fromYear = date1.getFullYear();
+		dateAllowed = new Date(fromYear, allowMonth, fromDay + 1);
+		date2 = new Date(toDate);
+		toDay = date2.getDate();
+		allowedToDay = toDay + 15;
+		var diffDays = toDay - fromDay;
+		if (date1 > date2) {
+			alert('From date should not be greater than To date. ');
+			return false;
+		}
+		 if(date2 > dateAllowed){
+			alert('Difference between From Date and To Date should not be greater than 1 months. ');
+			return false;
+		} 
+
+	/* 	if (diffDays >= 15) {
+			alert('Difference between From Date and To Date should not be greater than 15 Days. ');
+			return false;
+		} */
+	}
+</script>
+
+<link href="./CUSTOMER WEB SELF CARE_files/home.css" rel="stylesheet" type="text/css">
+
+<style>
+.space {
+	margin: 20px;
+}
+</style>
+</head>
+
+<body>
+	<div class="outer">
+		<div>
+			
+
+
+
+
+<title>CUSTOMER WEB SELF CARE</title>
+<style type="text/css">
+.inn p {
+	padding:35px 0px 0px 250px;
+	font-size: medium;
+	font-family: Arial;
+	color: black;
+	float: left;
+}
+
+.gif {
+	height: 41px;
+	width: 157px;
+	padding: 35px;
+	float: left;
+	
+	
+}
+.img
+{
+padding:5px 0px 20px 0px;
+align:"right";
+  display: block;
+
+}
+</style>
+
+
+	<div class="inner">
+		<div class="gif">
+			<img alt="gif pic" src="./CUSTOMER WEB SELF CARE_files/mtnl_logo.gif">
+		</div>
+		<div class="inn">
+			<p>
+				<b>Welcome to MTNL - Customer Web Self Care</b>
+			</p>
+		</div>
+		<div class="img">
+			<img alt="pic" src="./CUSTOMER WEB SELF CARE_files/MTNL_Tri_img.PNG">
+		</div>
+	</div>
+
+
+
+
+<script type="text/javascript">
+var imgSrc = " 41px;"
+</script>
+
+
+
+		</div>
+		<div>
+			
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./CUSTOMER WEB SELF CARE_files/font-awesome.min.css">
+<style>
+.navbar {
+	overflow: hidden;
+	background-color: #758CAC;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+	float: left;
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.dropdown {
+	float: left;
+	overflow: hidden;
+	color: #EBEBEB;
+}
+
+.dropdown .dropbtn {
+	font-size: 12px;
+	outline: none;
+	border: none;
+	color: white;
+	padding: 10px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: white;
+	color: black;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #758CAC;
+	min-width: 100px;
+	box-shadow: #EBEBEB;
+	z-index: 1;
+}
+
+.dropdown-content a {
+	float: none;
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+</style>
+
+
+
+
+
+	<div class="navbar" align="center">
+		<a href="https://register.mtnldelhi.in:8080/MyAccountHome">Home</a>
+		<div class="dropdown">
+			<button class="dropbtn">
+				My Info
+			</button>
+			<div class="dropdown-content">
+				<a href="https://register.mtnldelhi.in:8080/getServiceAccountDetails">My Profile</a>
+				
+				<a href="https://register.mtnldelhi.in:8080/Initchangepassword">Change Password</a>
+				
+				<a href="https://register.mtnldelhi.in:8080/showBilling">Bill Summary</a>
+				
+
+
+			</div>
+		</div>
+		
+		<a href="https://register.mtnldelhi.in:8080/showDataUsageInfo">Usage Information</a>
+		
+		
+
+		
+		<div class="dropdown">
+			<button class="dropbtn">
+				My Plan
+			</button>
+			<div class="dropdown-content">
+				<a href="https://register.mtnldelhi.in:8080/viewPackageInfo">Package Information</a>
+			</div>
+		</div>
+
+		  
+		<div class="dropdown">
+			<button class="dropbtn">Email Account</button>
+			<div class="dropdown-content">
+				<a href="https://register.mtnldelhi.in:8080/showAddEmailAccount">Add Account</a>
+				<a href="https://register.mtnldelhi.in:8080/getListCustEmailAccount">List Email Account</a> 
+				
+			</div>
+		</div>
+		 <a href="https://register.mtnldelhi.in:8080/getTopUpPackageList">Top Up</a>
+		 
+		 
+		<a href="https://register.mtnldelhi.in:8080/logout">Logout</a>
+	
+		
+
+	</div>
+
+
+
+
+		</div>
+		<div class="main" style="height: 380px">
+
+			<div class="info">
+				Data Usage History
+				<br>
+				<hr>
+			</div>
+			<div>
+				<form name="frmDataUsageInfo" method="post" action="https://register.mtnldelhi.in:8080/viewDataUsageInfo">
+					<p style="border: none">
+					<table width="250%">
+						<tbody><tr>
+							<td width="30%"><span class="onlybold">Account Name</span></td>
+							<td width="50%">20860181 </td>
+
+
+							<td rowspan="4">
+
+								<div>
+									<p>
+									<table width="75%">
+										<tbody><tr>
+											<td><span class="onlybold"><label>Usage Limit </label></span></td>
+											<td>Rs.9.9999999999E12</td>
+										</tr>
+
+										<tr>
+											<td><span class="onlybold"><label>Unbilled Usage </label></span></td>
+											<td>Rs.0</td>
+										</tr>
+
+										
+
+									</tbody></table>
+
+									</p>
+
+								</div>
+							</td>
+						</tr>
+						<tr>
+							<td><span class="onlybold">Account Number</span></td>
+							<td>SI_2033328957</td>
+						</tr>
+
+						<tr>
+							<td><span class="onlybold">Date Range</span></td>
+							<td class="TextLabelsBold">From
+								&nbsp;&nbsp;&nbsp;&nbsp; <input type="date" id="fromDate" name="fromDate" value="2019-05-01">
+							</td>
+						</tr>
+						<tr>
+							<td></td>
+							<td class="TextLabelsBold">To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="date" id="toDate" name="toDate" value="2019-05-17"></td>
+						</tr>
+						<tr>
+							<td><input type="hidden" name="currentPageNo" id="currentPageNo" value="1"></td>
+						</tr>
+						<tr>
+							<td colspan="3" align="center" width="200%"><input type="submit" id="btnsearch" name="btnsearch" value="Search" onclick="return validateDate();" class="Buttons"></td>
+						</tr>
+
+					</tbody></table>
+
+					</p>
+				</form>
+			</div>
+		</div>
+		
+	
+		
+		
+		<div style="background-color: white">
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="./CUSTOMER WEB SELF CARE_files/jquery.dataTables.min.css">
+
+	<link href="./CUSTOMER WEB SELF CARE_files/home.css" rel="stylesheet" type="text/css">
+
+
+<title>CUSTOMER WEB SELF CARE</title>
+<script src="./CUSTOMER WEB SELF CARE_files/jquery-1.11.1.js.download" type="text/javascript"></script>
+<script src="./CUSTOMER WEB SELF CARE_files/jquery.dataTables.min.js.download" type="text/javascript"></script>
+<script src="./CUSTOMER WEB SELF CARE_files/dataTables.bootstrap.js.download" type="text/javascript"></script>
+<script src="./CUSTOMER WEB SELF CARE_files/jquery-ui.min.js.download" type="text/javascript"></script>
+<script src="./CUSTOMER WEB SELF CARE_files/bootstrap.min.js.download" type="text/javascript"></script>
+<script src="./CUSTOMER WEB SELF CARE_files/bootstrap.js.download" type="text/javascript"></script>
+
+<script type="text/javascript">
+// 	var uploadGrandTotal = 0;
+// 	var downloadGrandTotal = 0;
+// 	var totalGrandTotal = 0;
+
+	
+	$(function() {
+		$("#allusageinfodata").hide();
+		$("#usageInfoTableId").hide();
+		$("#toteldata").hide();
+		
+		var list = [];
+		var personJson = '{"responseCode":1,"responseMessage":"SUCCESS","responseObject":{"SrNo":0,"sessionTime":0,"uploadValume":0,"downloadValume":0,"totalValume":0,"totalUploadVolume":0,"totalDownloadVolume":0,"totalOfTotalVolume":0,"grandUploadVolume":68535906079,"grandDownloadVolume":72794659189,"grandTotal":141330565268},"responseList":[{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"16/05/2019 23:59:02","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"16/05/2019 23:57:04","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":27041178300,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.4507203112E10,"processdate":"1558031342000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":4737104517,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":117,"sessiontotalpackets":0,"sessionuploaddatatransfer":22304073783,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:1:57"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"16/05/2019 23:53:38","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"16/05/2019 23:38:55","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":27040602479,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.1547805591E10,"processdate":"1558031018000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":4736715505,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":882,"sessiontotalpackets":0,"sessionuploaddatatransfer":22303886974,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:14:42"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 20:57:40","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 20:39:40","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":49802422,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.1597608013E10,"processdate":"1557934060000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":48095683,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1080,"sessiontotalpackets":0,"sessionuploaddatatransfer":1706739,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:18:0"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 20:37:48","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 20:05:20","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":283784062,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.1881392075E10,"processdate":"1557932868000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":217039083,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1948,"sessiontotalpackets":0,"sessionuploaddatatransfer":66744979,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:32:28"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 19:17:54","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 19:09:51","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":31223590,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.1912615665E10,"processdate":"1557928074000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":29684950,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":482,"sessiontotalpackets":0,"sessionuploaddatatransfer":1538640,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:8:2"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 18:59:31","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 18:56:28","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1344,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.1912617009E10,"processdate":"1557926971000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":820,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":182,"sessiontotalpackets":0,"sessionuploaddatatransfer":524,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:3:2"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 01:59:56","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 01:57:04","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":2246619077,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.4159236086E10,"processdate":"1557865796000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":2040077566,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":172,"sessiontotalpackets":0,"sessionuploaddatatransfer":206541511,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:2:52"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 01:55:47","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 01:44:58","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":2205690275,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.6364926361E10,"processdate":"1557865547000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":2000800803,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":648,"sessiontotalpackets":0,"sessionuploaddatatransfer":204889472,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:10:48"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 01:15:27","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 00:58:35","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1969992827,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":4.8334919188E10,"processdate":"1557863127000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1773059872,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1012,"sessiontotalpackets":0,"sessionuploaddatatransfer":196932955,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:16:52"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"15/05/2019 00:19:13","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"15/05/2019 00:10:25","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1919640185,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":5.0254559373E10,"processdate":"1557859753000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1729549545,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":528,"sessiontotalpackets":0,"sessionuploaddatatransfer":190090640,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:8:48"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"14/05/2019 15:27:14","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"14/05/2019 15:04:19","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":883958772,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":5.2143881465E10,"processdate":"1557827834000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":788336558,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1374,"sessiontotalpackets":0,"sessionuploaddatatransfer":95622214,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:22:54"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"14/05/2019 15:31:48","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"14/05/2019 15:27:48","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1005363320,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":5.1259922693E10,"processdate":"1557828108000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":904214685,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":240,"sessiontotalpackets":0,"sessionuploaddatatransfer":101148635,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:4:0"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"14/05/2019 14:58:55","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"14/05/2019 14:47:37","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":157641230,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":5.2301522695E10,"processdate":"1557826135000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":113522725,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":678,"sessiontotalpackets":0,"sessionuploaddatatransfer":44118505,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:11:18"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"13/05/2019 15:09:24","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"13/05/2019 10:19:24","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":5497369625,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":5.779889232E10,"processdate":"1557740364000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1092117090,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":17400,"sessiontotalpackets":0,"sessionuploaddatatransfer":4405252535,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"4:50:0"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"12/05/2019 22:51:54","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"12/05/2019 20:33:00","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":12264990863,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":7.0063883183E10,"processdate":"1557681714000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":5650055460,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":8333,"sessiontotalpackets":0,"sessionuploaddatatransfer":6614935403,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"2:18:53"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"12/05/2019 19:05:41","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"12/05/2019 12:17:41","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":11986886775,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":8.2050769958E10,"processdate":"1557668141000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":5384699418,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":24479,"sessiontotalpackets":0,"sessionuploaddatatransfer":6602187357,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"6:47:59"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"12/05/2019 02:23:12","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"11/05/2019 13:16:12","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":3488554666,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":8.2114296631E10,"processdate":"1557607992000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":3050705720,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":47220,"sessiontotalpackets":0,"sessionuploaddatatransfer":437848946,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"13:7:0"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"11/05/2019 02:53:01","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"10/05/2019 23:41:59","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":848455123,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":8.6387779747E10,"processdate":"1557523381000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":825920054,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":11461,"sessiontotalpackets":0,"sessionuploaddatatransfer":22535069,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"3:11:1"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"09/05/2019 22:28:12","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"09/05/2019 17:00:48","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":2067661304,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":8.8455441051E10,"processdate":"1557421092000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1720177992,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":19643,"sessiontotalpackets":0,"sessionuploaddatatransfer":347483312,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"5:27:23"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"09/05/2019 16:58:10","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"09/05/2019 16:53:09","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":2176846211,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":9.0632287262E10,"processdate":"1557401290000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1794005524,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":301,"sessiontotalpackets":0,"sessionuploaddatatransfer":382840687,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:5:1"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"09/05/2019 13:28:23","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"09/05/2019 11:55:32","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1544078181,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":9.2176365443E10,"processdate":"1557388703000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1184638165,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":5570,"sessiontotalpackets":0,"sessionuploaddatatransfer":359440016,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"1:32:50"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"09/05/2019 03:31:25","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"09/05/2019 01:18:14","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":2689699386,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":9.4866064829E10,"processdate":"1557352885000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":2584777041,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":7990,"sessiontotalpackets":0,"sessionuploaddatatransfer":104922345,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"2:13:10"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"07/05/2019 19:58:13","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"07/05/2019 19:24:58","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":2362425823,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":9.7228490652E10,"processdate":"1557239293000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":2180151771,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1995,"sessiontotalpackets":0,"sessionuploaddatatransfer":182274052,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:33:15"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"07/05/2019 18:50:26","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"07/05/2019 15:42:29","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1913944834,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":9.9142435486E10,"processdate":"1557235226000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1750521490,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":11277,"sessiontotalpackets":0,"sessionuploaddatatransfer":163423344,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"3:7:57"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"07/05/2019 14:20:41","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"07/05/2019 14:01:33","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":719979342,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":9.9862414828E10,"processdate":"1557219041000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":620623922,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1148,"sessiontotalpackets":0,"sessionuploaddatatransfer":99355420,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:19:8"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"07/05/2019 04:14:25","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"07/05/2019 00:36:45","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":3212764855,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.03075179683E11,"processdate":"1557182665000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":3007086777,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":13060,"sessiontotalpackets":0,"sessionuploaddatatransfer":205678078,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"3:37:40"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"06/05/2019 00:32:04","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"05/05/2019 20:54:30","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":4267281430,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.07342461113E11,"processdate":"1557082924000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":3739549522,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":13054,"sessiontotalpackets":0,"sessionuploaddatatransfer":527731908,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"3:37:34"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"05/05/2019 20:33:41","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"05/05/2019 17:49:01","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1612710773,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.08955171886E11,"processdate":"1557068621000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":921254686,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":9879,"sessiontotalpackets":0,"sessionuploaddatatransfer":691456087,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"2:44:39"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"05/05/2019 17:41:28","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"05/05/2019 14:29:14","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":455829240,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.09411001126E11,"processdate":"1557058288000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":437964824,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":11533,"sessiontotalpackets":0,"sessionuploaddatatransfer":17864416,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"3:12:13"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"05/05/2019 02:25:53","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"04/05/2019 20:50:45","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":4227190889,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.13638192015E11,"processdate":"1557003353000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":4043607032,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":20107,"sessiontotalpackets":0,"sessionuploaddatatransfer":183583857,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"5:35:7"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"04/05/2019 20:49:20","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"04/05/2019 17:23:29","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":817565719,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.14455757734E11,"processdate":"1556983160000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":715064979,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":12351,"sessiontotalpackets":0,"sessionuploaddatatransfer":102500740,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"3:25:51"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"04/05/2019 17:16:43","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"04/05/2019 15:07:11","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":591650513,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.15047408247E11,"processdate":"1556970403000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":541959538,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":7771,"sessiontotalpackets":0,"sessionuploaddatatransfer":49690975,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"2:9:31"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"04/05/2019 13:50:30","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"04/05/2019 11:05:10","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":596114629,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.15643522876E11,"processdate":"1556958030000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":287528862,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":9920,"sessiontotalpackets":0,"sessionuploaddatatransfer":308585767,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"2:45:20"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"04/05/2019 11:03:57","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"04/05/2019 09:55:17","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1693988646,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.17337511522E11,"processdate":"1556948037000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1654584499,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":4119,"sessiontotalpackets":0,"sessionuploaddatatransfer":39404147,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"1:8:39"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"04/05/2019 04:06:27","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"04/05/2019 02:59:05","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":48783,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.17337560305E11,"processdate":"1556922987000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":26625,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":4042,"sessiontotalpackets":0,"sessionuploaddatatransfer":22158,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"1:7:22"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"03/05/2019 22:16:59","callingprefixtype":"null","callingstationid":"null","callstart":"03/05/2019 12:02:16","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":3124472021,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.20462378008E11,"processdate":"1556902019000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":2818377852,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":36883,"sessiontotalpackets":0,"sessionuploaddatatransfer":306094169,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"10:14:43"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"03/05/2019 22:39:22","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"03/05/2019 22:17:32","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":345682,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.17337905987E11,"processdate":"1556903362000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":167593,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":1310,"sessiontotalpackets":0,"sessionuploaddatatransfer":178089,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"0:21:50"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"02/05/2019 03:00:47","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"01/05/2019 13:35:59","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":7036286575,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.25763616474E11,"processdate":"1556746247000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":6480921508,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":48287,"sessiontotalpackets":0,"sessionuploaddatatransfer":555365067,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"13:24:47"},{"accountedcost":0.0,"accounteddatatransfer":0.0,"accounteddatatransferbytes":0,"accountedpackets":0,"accountedtime":0,"accountedunits":0,"accountingeffect":"DR","afterbalance":0.0,"applicationprocesstime":0.0,"applyfreeusage":0,"billingstatus":0,"calledpprefixtype":"null","calledprefixtype":"null","calledstationid":"null","callend":"01/05/2019 02:54:50","callingprefixtype":"null","callingstationid":"lag-15:3067.1145","callstart":"01/05/2019 01:31:42","calltype":0,"currencycode":0,"defaultchargeperuom":0.0,"destgrpname":"null","destinationname":"null","downloadmb":0,"eventqty":0,"exchangerate":0.0,"freeusageunits":1297925497,"offset":0.0,"overusageamount":0,"paramint1":0,"paramint10":0,"paramint2":0,"paramint3":0,"paramint4":0,"paramint5":0,"paramint6":0,"paramint7":0,"paramint8":0,"paramint9":0,"planname":"FTH_777","portcharge":0.0,"prefix":"ANY","previousbalance":1.2883853312E11,"processdate":"1556659490000","profit":0,"ratedetails":"0.0;1;0","ratinggroupid":0,"ratingserviceid":0,"ratingtype":"V","servicealias":"DATA","sessiondatatransfer":0.0,"sessiondownloaddatatransfer":1189968933,"sessiondownloaddatatransfermb":0,"sessiondownloadgigawords":0,"sessioninputpackets":0,"sessionoutputpackets":0,"sessiontime":4988,"sessiontotalpackets":0,"sessionuploaddatatransfer":107956564,"sessionuploaddatatransfermb":0,"sessionuploadgigawords":0,"sourcename":"null","srcgrpname":"null","uploadmb":0,"waittime":0,"sessionTiming":"1:23:8"}]}';
+		var person = JSON.parse(personJson);
+		list = person.responseList;
+		if (list != null) {
+			$("#usageInfoTableId").show();
+			setDataOnTable(list)
+		}else{
+			setDataOnTable("No Records Found")
+		}
+	});
+
+	function setDataOnTable(jsoneRes) { 
+		$("#tableId").dataTable().fnDestroy();
+		var tableBodyhtml = "";
+		var i = 0;
+		$.each(jsoneRes, function() {
+			tableBodyhtml += _getHtml(this);
+			i++;
+		});
+
+		$("#usageInfoTableIdTableBodyId").html(tableBodyhtml);
+		$('#tableId').dataTable({
+			"bDestroy" : true,
+			"searching" : false,
+			"lengthChange" : false,
+			"iDisplayLength" : 10,
+			"order" : []
+		});
+		
+		$('#tableId').on( 'page.dt', function () {
+		    var info = table.page.info();
+		    $('#pageInfo').html( 'Showing page: '+info.page+' of '+info.pages );
+		} );
+	}
+
+	var i = 0;
+	var uploadTotal = 0;
+	var downloadTotal = 0;
+	var totalValumeTotal = 0;
+	var count = 0;
+	function _getHtml(categoryObject) {
+		count = count + 1;
+		if(count <= 10 || count == (categoryObject.length)){	
+			uploadTotal = parseFloat(uploadTotal) + parseFloat(uploadmb);
+			downloadTotal = parseFloat(downloadTotal) + parseFloat(downloadmb);
+			totalValumeTotal = uploadTotal + downloadTotal;		
+			
+			document.getElementById("uploadTotalId").innerHTML = uploadTotal;
+			document.getElementById("downloadTotalId").innerHTML = downloadTotal;
+			document.getElementById("totalValueId").innerHTML = totalValumeTotal;
+			count = 0;
+		}else {
+			uploadTotal = parseFloat(uploadTotal) +parseFloat(uploadmb);
+			downloadTotal = parseFloat(downloadTotal) + parseFloat(downloadmb);
+			totalValumeTotal = uploadTotal + downloadTotal;	
+			
+		}
+		
+		i = i + 1;
+		
+		var uploadmb = 0;
+		var downloadmb = 0;
+		var totalValume = 0;
+		
+		uploadmb = categoryObject.sessionuploaddatatransfer;
+		uploadmb = parseFloat((uploadmb /(1024*1024)).toFixed(2));
+		
+		
+		downloadmb = categoryObject.sessiondownloaddatatransfer;
+		downloadmb = parseFloat((downloadmb /(1024*1024)).toFixed(2));
+		
+		
+ 		totalValume = parseFloat((downloadmb + uploadmb).toFixed(2));
+// 		totalValume = totalValume.toFixed(2);
+		
+		
+// 		uploadTotal = parseFloat(uploadTotal) + uploadmb;
+// 		uploadTotal = (uploadTotal /(1024*1024)).toFixed(2);
+// 		downloadTotal = downloadTotal + downloadmb;
+// 		downloadTotal = (downloadTotal /(1024*1024)).toFixed(2);
+// 		totalValumeTotal = uploadTotal + downloadTotal;
+		
+		var sessionTime = "";
+		var hrs = 0;
+		var mins = 0;
+		var secs = 0;
+		var longSessionTime = categoryObject.sessiontime;
+		if (longSessionTime > 0) {
+			hrs = Math.floor(Math.abs(longSessionTime) / 3600);
+			mins = (Math.floor(Math.abs(longSessionTime) % 3600) / 60);
+			secs = Math.abs(longSessionTime) % 60;
+			sessionTime = hrs + ":" + mins + ":" + secs;
+		}
+
+		var html = "";
+
+		html = '<tr>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ i
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">'
+				+ categoryObject.callstart
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">'
+				+ categoryObject.callend
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ categoryObject.sessionTiming
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ categoryObject.servicealias
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ categoryObject.ratingtype
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ uploadmb
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ downloadmb
+				+ '</td>'
+				+ '<td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">'
+				+ totalValume + '</td>' + '</tr>';
+				
+		return html;
+	}
+	
+	
+	var tableToExcel = (function() {
+	      var uri = 'data:application/vnd.ms-excel;base64,'
+	        , template = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table>{table}</table></body></html>'
+	        , base64 = function(s) { return window.btoa(unescape(encodeURIComponent(s))) }
+	        , format = function(s, c) { return s.replace(/{(\w+)}/g, function(m, p) { return c[p]; }) }
+	      return function(table, name) {
+	        if (!table.nodeType) table = document.getElementById(table)
+	        var ctx = {worksheet: name || 'Worksheet', table: table.innerHTML}
+	        window.location.href = uri + base64(format(template, ctx))
+	      }
+	    })();
+		
+	
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+	<div align="center" id="usageInfoTableId" style="display: block;">
+		<div class="widget-body padding0 mtop20" border="1">
+			<div class="panel-body">
+				<br><br><hr><div id="tableId_wrapper" class="dataTables_wrapper form-inline dt-bootstrap"><div class="row"><div class="col-xs-6"></div><div class="col-xs-6"></div></div><table style="word-break: break-all; table-layout: inherit; width: 95%;" class="table table-hover table-bordered center dataTable" id="tableId" border="1" cellspacing="0" cellpadding="0" width="95%" role="grid" aria-describedby="tableId_info">
+					
+					<thead class="bordered-blueberry">
+						
+						<tr role="row"><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Sr. No.: activate to sort column ascending" style="width: 54.0114px;">Sr. No.</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Start Time: activate to sort column ascending" style="width: 78.0114px;">Start Time</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="End Time: activate to sort column ascending" style="width: 72.0114px;">End Time</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Session Time: activate to sort column ascending" style="width: 99.0114px;">Session Time</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Service: activate to sort column ascending" style="width: 60.0114px;">Service</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Rating Type	: activate to sort column ascending" style="width: 89.0114px;">Rating Type	</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Upload Volume(MB): activate to sort column ascending" style="width: 143.011px;">Upload Volume(MB)</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Download Volume(MB): activate to sort column ascending" style="width: 162.011px;">Download Volume(MB)</th><th class="TableHeader sorting" tabindex="0" aria-controls="tableId" rowspan="1" colspan="1" aria-label="Total Volume (MB): activate to sort column ascending" style="width: 133.011px;">Total Volume (MB)</th></tr>
+					</thead>
+					<tfoot>
+						 <tr id="toteldata" align="center" style="display: none;"><th colspan="6" align="right" class="TableRows" rowspan="1"><label>Total</label></th><td id="uploadTotalId" class="TableRows" rowspan="1" colspan="1">NaN</td><td id="downloadTotalId" class="TableRows" rowspan="1" colspan="1">NaN</td><td id="totalValueId" class="TableRows" rowspan="1" colspan="1">NaN</td></tr> 
+						<tr align="center"><th colspan="6" align="right" class="TableRows" rowspan="1"><label>Grand Total</label></th><td id="uploadGrandTotalId" class="TableRows" rowspan="1" colspan="1">65360.93</td><td id="downloadGrandTotalId" class="TableRows" rowspan="1" colspan="1">69422.4</td><td id="totalGrandTotalId" class="TableRows" rowspan="1" colspan="1">134783.33</td></tr>
+					</tfoot>
+					<tbody id="usageInfoTableIdTableBodyId"><tr role="row" class="odd"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">16/05/2019 23:57:04</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">16/05/2019 23:59:02</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:1:57</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">21270.82</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">4517.65</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">25788.47</td></tr><tr role="row" class="even"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">2</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">16/05/2019 23:38:55</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">16/05/2019 23:53:38</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:14:42</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">21270.64</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">4517.28</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">25787.92</td></tr><tr role="row" class="odd"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">3</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 20:39:40</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 20:57:40</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:18:0</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1.63</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">45.87</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">47.5</td></tr><tr role="row" class="even"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">4</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 20:05:20</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 20:37:48</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:32:28</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">63.65</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">206.98</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">270.63</td></tr><tr role="row" class="odd"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">5</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 19:09:51</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 19:17:54</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:8:2</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1.47</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">28.31</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">29.78</td></tr><tr role="row" class="even"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">6</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 18:56:28</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 18:59:31</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:3:2</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0</td></tr><tr role="row" class="odd"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">7</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 01:57:04</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 01:59:56</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:2:52</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">196.97</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1945.57</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">2142.54</td></tr><tr role="row" class="even"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">8</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 01:44:58</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 01:55:47</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:10:48</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">195.4</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1908.11</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">2103.51</td></tr><tr role="row" class="odd"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">9</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 00:58:35</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 01:15:27</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:16:52</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">187.81</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1690.92</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1878.73</td></tr><tr role="row" class="even"><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">10</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 00:10:25</td><td style="word-wrap:break-word;width:10px;overflow:auto" class="TableRows" align="center">15/05/2019 00:19:13</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">0:8:48</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">DATA</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">V</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">181.28</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1649.43</td><td style="word-wrap:break-word;width:15px;overflow:auto" class="TableRows" align="center">1830.71</td></tr></tbody>
+					
+					
+					
+
+				</table><div class="row"><div class="col-xs-6"><div class="dataTables_info" id="tableId_info" role="status" aria-live="polite">Showing 1 to 10 of 39 entries</div></div><div class="col-xs-6"><div class="dataTables_paginate paging_simple_numbers" id="tableId_paginate"><ul class="pagination"><li class="paginate_button previous disabled" aria-controls="tableId" tabindex="0" id="tableId_previous"><a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">Previous</a></li><li class="paginate_button active" aria-controls="tableId" tabindex="0"><a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">1</a></li><li class="paginate_button " aria-controls="tableId" tabindex="0"><a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">2</a></li><li class="paginate_button " aria-controls="tableId" tabindex="0"><a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">3</a></li><li class="paginate_button " aria-controls="tableId" tabindex="0"><a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">4</a></li><li class="paginate_button next" aria-controls="tableId" tabindex="0" id="tableId_next"><a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">Next</a></li></ul></div></div></div></div>
+
+			</div>
+			<div>
+				<br> <br>
+
+
+					<div align="center" class="">
+						<input type="submit" name="download" id="download" value="Download" onclick="tableToExcel(&#39;allusageinfodata&#39;)">
+
+					</div>
+<!-- 				</form> -->
+			</div>
+		</div>
+
+	</div>
+
+	<div id="allusagedata">
+		<table id="allusageinfodata" border="1" style="display: none;">
+			<thead>
+			<tr>
+				<th>Sr. No.</th>
+				<th>Start Time</th>
+				<th>End Time</th>
+				<th>Session Time</th>
+				<th>Service</th>
+				<th>Rating Type	</th>
+				<th>Upload Volume(MB)</th>
+				<th>Download Volume(MB)</th>
+				<th>Total Volume (MB)</th>
+			</tr>
+			</thead>
+			
+			
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>16/05/2019 23:57:04</td>
+					<td>16/05/2019 23:59:02</td>
+					<td>117</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>21270.82</td>
+					<td>4517.65</td>
+					<td>25788.47</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>2</td>
+					<td>16/05/2019 23:38:55</td>
+					<td>16/05/2019 23:53:38</td>
+					<td>882</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>21270.64</td>
+					<td>4517.28</td>
+					<td>25787.92</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>3</td>
+					<td>15/05/2019 20:39:40</td>
+					<td>15/05/2019 20:57:40</td>
+					<td>1080</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>1.63</td>
+					<td>45.87</td>
+					<td>47.5</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>4</td>
+					<td>15/05/2019 20:05:20</td>
+					<td>15/05/2019 20:37:48</td>
+					<td>1948</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>63.65</td>
+					<td>206.98</td>
+					<td>270.63</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>5</td>
+					<td>15/05/2019 19:09:51</td>
+					<td>15/05/2019 19:17:54</td>
+					<td>482</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>1.47</td>
+					<td>28.31</td>
+					<td>29.779999999999998</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>6</td>
+					<td>15/05/2019 18:56:28</td>
+					<td>15/05/2019 18:59:31</td>
+					<td>182</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>0.0</td>
+					<td>0.0</td>
+					<td>0.0</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>7</td>
+					<td>15/05/2019 01:57:04</td>
+					<td>15/05/2019 01:59:56</td>
+					<td>172</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>196.97</td>
+					<td>1945.57</td>
+					<td>2142.54</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>8</td>
+					<td>15/05/2019 01:44:58</td>
+					<td>15/05/2019 01:55:47</td>
+					<td>648</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>195.4</td>
+					<td>1908.11</td>
+					<td>2103.5099999999998</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>9</td>
+					<td>15/05/2019 00:58:35</td>
+					<td>15/05/2019 01:15:27</td>
+					<td>1012</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>187.81</td>
+					<td>1690.92</td>
+					<td>1878.73</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>10</td>
+					<td>15/05/2019 00:10:25</td>
+					<td>15/05/2019 00:19:13</td>
+					<td>528</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>181.28</td>
+					<td>1649.43</td>
+					<td>1830.71</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>11</td>
+					<td>14/05/2019 15:04:19</td>
+					<td>14/05/2019 15:27:14</td>
+					<td>1374</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>91.19</td>
+					<td>751.82</td>
+					<td>843.01</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>12</td>
+					<td>14/05/2019 15:27:48</td>
+					<td>14/05/2019 15:31:48</td>
+					<td>240</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>96.46</td>
+					<td>862.33</td>
+					<td>958.7900000000001</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>13</td>
+					<td>14/05/2019 14:47:37</td>
+					<td>14/05/2019 14:58:55</td>
+					<td>678</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>42.07</td>
+					<td>108.26</td>
+					<td>150.33</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>14</td>
+					<td>13/05/2019 10:19:24</td>
+					<td>13/05/2019 15:09:24</td>
+					<td>17400</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>4201.18</td>
+					<td>1041.52</td>
+					<td>5242.700000000001</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>15</td>
+					<td>12/05/2019 20:33:00</td>
+					<td>12/05/2019 22:51:54</td>
+					<td>8333</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>6308.49</td>
+					<td>5388.31</td>
+					<td>11696.8</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>16</td>
+					<td>12/05/2019 12:17:41</td>
+					<td>12/05/2019 19:05:41</td>
+					<td>24479</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>6296.34</td>
+					<td>5135.25</td>
+					<td>11431.59</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>17</td>
+					<td>11/05/2019 13:16:12</td>
+					<td>12/05/2019 02:23:12</td>
+					<td>47220</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>417.57</td>
+					<td>2909.38</td>
+					<td>3326.9500000000003</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>18</td>
+					<td>10/05/2019 23:41:59</td>
+					<td>11/05/2019 02:53:01</td>
+					<td>11461</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>21.49</td>
+					<td>787.66</td>
+					<td>809.15</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>19</td>
+					<td>09/05/2019 17:00:48</td>
+					<td>09/05/2019 22:28:12</td>
+					<td>19643</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>331.39</td>
+					<td>1640.49</td>
+					<td>1971.88</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>20</td>
+					<td>09/05/2019 16:53:09</td>
+					<td>09/05/2019 16:58:10</td>
+					<td>301</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>365.11</td>
+					<td>1710.9</td>
+					<td>2076.01</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>21</td>
+					<td>09/05/2019 11:55:32</td>
+					<td>09/05/2019 13:28:23</td>
+					<td>5570</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>342.79</td>
+					<td>1129.76</td>
+					<td>1472.55</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>22</td>
+					<td>09/05/2019 01:18:14</td>
+					<td>09/05/2019 03:31:25</td>
+					<td>7990</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>100.06</td>
+					<td>2465.04</td>
+					<td>2565.1</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>23</td>
+					<td>07/05/2019 19:24:58</td>
+					<td>07/05/2019 19:58:13</td>
+					<td>1995</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>173.83</td>
+					<td>2079.15</td>
+					<td>2252.98</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>24</td>
+					<td>07/05/2019 15:42:29</td>
+					<td>07/05/2019 18:50:26</td>
+					<td>11277</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>155.85</td>
+					<td>1669.43</td>
+					<td>1825.28</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>25</td>
+					<td>07/05/2019 14:01:33</td>
+					<td>07/05/2019 14:20:41</td>
+					<td>1148</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>94.75</td>
+					<td>591.87</td>
+					<td>686.62</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>26</td>
+					<td>07/05/2019 00:36:45</td>
+					<td>07/05/2019 04:14:25</td>
+					<td>13060</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>196.15</td>
+					<td>2867.78</td>
+					<td>3063.9300000000003</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>27</td>
+					<td>05/05/2019 20:54:30</td>
+					<td>06/05/2019 00:32:04</td>
+					<td>13054</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>503.28</td>
+					<td>3566.31</td>
+					<td>4069.59</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>28</td>
+					<td>05/05/2019 17:49:01</td>
+					<td>05/05/2019 20:33:41</td>
+					<td>9879</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>659.42</td>
+					<td>878.58</td>
+					<td>1538.0</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>29</td>
+					<td>05/05/2019 14:29:14</td>
+					<td>05/05/2019 17:41:28</td>
+					<td>11533</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>17.04</td>
+					<td>417.68</td>
+					<td>434.72</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>30</td>
+					<td>04/05/2019 20:50:45</td>
+					<td>05/05/2019 02:25:53</td>
+					<td>20107</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>175.08</td>
+					<td>3856.28</td>
+					<td>4031.36</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>31</td>
+					<td>04/05/2019 17:23:29</td>
+					<td>04/05/2019 20:49:20</td>
+					<td>12351</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>97.75</td>
+					<td>681.94</td>
+					<td>779.69</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>32</td>
+					<td>04/05/2019 15:07:11</td>
+					<td>04/05/2019 17:16:43</td>
+					<td>7771</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>47.39</td>
+					<td>516.85</td>
+					<td>564.24</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>33</td>
+					<td>04/05/2019 11:05:10</td>
+					<td>04/05/2019 13:50:30</td>
+					<td>9920</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>294.29</td>
+					<td>274.21</td>
+					<td>568.5</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>34</td>
+					<td>04/05/2019 09:55:17</td>
+					<td>04/05/2019 11:03:57</td>
+					<td>4119</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>37.58</td>
+					<td>1577.93</td>
+					<td>1615.51</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>35</td>
+					<td>04/05/2019 02:59:05</td>
+					<td>04/05/2019 04:06:27</td>
+					<td>4042</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>0.02</td>
+					<td>0.03</td>
+					<td>0.05</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>36</td>
+					<td>03/05/2019 12:02:16</td>
+					<td>03/05/2019 22:16:59</td>
+					<td>36883</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>291.91</td>
+					<td>2687.81</td>
+					<td>2979.72</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>37</td>
+					<td>03/05/2019 22:17:32</td>
+					<td>03/05/2019 22:39:22</td>
+					<td>1310</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>0.17</td>
+					<td>0.16</td>
+					<td>0.33</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>38</td>
+					<td>01/05/2019 13:35:59</td>
+					<td>02/05/2019 03:00:47</td>
+					<td>48287</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>529.64</td>
+					<td>6180.69</td>
+					<td>6710.33</td>
+				</tr>
+			</tbody>
+			
+			<tbody>
+				<tr>
+					<td>39</td>
+					<td>01/05/2019 01:31:42</td>
+					<td>01/05/2019 02:54:50</td>
+					<td>4988</td>
+					<td>DATA</td>
+					<td>V</td>
+					<td>102.96</td>
+					<td>1134.84</td>
+					<td>1237.8</td>
+				</tr>
+			</tbody>
+			
+			<tfoot>
+				<tr align="center">
+					<th colspan="6" align="right"><label>Grand Total</label></th>
+					<td id="uploadGrandTotalId">65360.93
+					</td><td id="downloadGrandTotalId">69422.4</td>
+					<td id="totalGrandTotalId">134783.33</td>
+				</tr>
+			</tfoot>
+		</table>
+
+	</div>
+	
+
+
+
+			
+
+
+<style type="text/css">
+.footer-container {
+	align: middle;
+	border: 1px;
+}
+
+.Footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFFFFF;
+	background-color: #EEEEEE;
+}
+
+.note {
+	text-align: center;
+	font-size: 11px;
+}
+
+.link {
+	background-color: #758CAC;
+	text-align: center;
+}
+
+.link a {
+	color: #FFFFFF;
+}
+</style>
+
+
+<div class="foot">
+	<div class="note">#Note : This Website is best viewed in 1024x768
+		graphics resolution.</div>
+
+	<div class="link">
+		<a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">Contact Us</a> &nbsp;&nbsp;&nbsp;<a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">About Us</a>
+		&nbsp;&nbsp;&nbsp;<a href="https://register.mtnldelhi.in:8080/viewDataUsageInfo#">Terms and Conditions</a>
+	</div>
+	<div class="footer-container">
+		<center>
+			<img src="./CUSTOMER WEB SELF CARE_files/Footer.jpg" height="25px">
+		</center>
+
+	</div>
+	</div>
+
+
+		</div>
+		
+	</div>
+
+
+
+<iframe frameborder="0" scrolling="no" style="background-color: transparent; border: 0px; display: none;" __idm_frm__="651" src="./CUSTOMER WEB SELF CARE_files/saved_resource.html"></iframe><div id="GOOGLE_INPUT_CHEXT_FLAG" style="display: none;" input="" input_stat="{&quot;tlang&quot;:true,&quot;tsbc&quot;:true,&quot;pun&quot;:true,&quot;mk&quot;:true,&quot;ss&quot;:true}"></div></body></html>
